@@ -15,7 +15,7 @@ pipeline {
                        allowMissing: false, 
                        alwaysLinkToLastBuild: false, 
                        keepAll: false, 
-                       reportDir: 'ExtentReports/LaporanPengujian/HtmlReport', 
+                       reportDir: 'target/ExtentReports/LaporanPengujian/HtmlReport', 
                        reportFiles: 'ExtentHtml.html', 
                        reportName: 'Extent Report', 
                        reportTitles: '', 
